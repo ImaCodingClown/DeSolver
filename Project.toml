@@ -2,3 +2,7 @@ name = "DeSolver"
 uuid = "9346151a-ec18-4513-935c-6cb600448c71"
 authors = ["hjk97 "]
 version = "0.1.0"
+
+[deps]
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

@@ -8,3 +8,11 @@ function RK4(f, u0, h, t0)
     y1 = y0+(k1+2k2+2k3+k4)*h/6
     return y1
 end
+
+function RK2(f, u0, h, t0)
+    y0=u0
+    k1=f(y0,t0)
+    k2=f(y0+k1*h*0.5,t0+h/2)
+    y1=y0+k2*h
+    return y1
+end
