@@ -28,6 +28,7 @@ sol.u will give you the numerical solution to the ode
 
 ## methods
 RK4 = Runge Kutta Method of order 4
+
 RK2 = Runge Kutta Method of order 2
 
 ## Examples
